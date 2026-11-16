@@ -1,0 +1,17 @@
+# Never commit patient data or patient-level results
+data/*
+!data/README.md
+results/*
+!results/README.md
+!results/paper/
+*.pkl
+*.xlsx
+*.csv
+!results/paper/tables/*.csv
+*.rar
+*.zip
+*.dcm
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

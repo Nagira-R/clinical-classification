@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Machine learning for three-class osteoporosis classification in adults using routine clinical variables: analysis code"
+authors:
+  - family-names: "Rajahussain"
+    given-names: "Nagira"
+    affiliation: "Department of Information Technology, PSG College of Technology, Coimbatore, India"
+  - family-names: "Subramaniam"
+    given-names: "Sarathambekai"
+    affiliation: "Department of Information Technology, PSG College of Technology, Coimbatore, India"
+  - family-names: "Kandaswamy"
+    given-names: "Umamaheswari"
+    affiliation: "Department of Computer Applications, Coimbatore Institute of Technology, Coimbatore, India"
+  - family-names: "Ramaswamy"
+    given-names: "Arun Prasad"
+    affiliation: "Department of Radiodiagnosis, PSG Institute of Medical Sciences & Research, Coimbatore, India"
+license: MIT
+repository-code: "https://github.com/Nagira-R/clinical-classification"
+preferred-citation:
+  type: article
+  title: "Machine learning for three-class osteoporosis classification in adults using routine clinical variables: class balancing, age effects, older-adult subgroups, and cross-cohort validation"
+  authors:
+    - family-names: "Rajahussain"
+      given-names: "Nagira"
+    - family-names: "Subramaniam"
+      given-names: "Sarathambekai"
+    - family-names: "Kandaswamy"
+      given-names: "Umamaheswari"
+    - family-names: "Ramaswamy"
+      given-names: "Arun Prasad"
+  journal: "Archives of Gerontology and Geriatrics (submitted)"
+  year: 2026
