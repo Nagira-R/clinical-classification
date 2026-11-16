@@ -1,0 +1,7 @@
+"Table 4. Two-class AUCs of the five-variable LR, the baselines and OSTA in patients aged 50 or more."
+Cohort and outcome,Five-variable LR (95% CI),Age + weight (LR),Age alone,OSTA score (95% CI),LR − OSTA (95% CI),LR − (age + weight) (95% CI)
+PLDC: Osteoporosis vs rest,0.72 (0.64 to 0.79),0.68,0.65,0.69 (0.61 to 0.77),0.03 (−0.01 to 0.06),0.04 (0.00 to 0.07)
+PLDC: Low BMD vs normal,0.64 (0.56 to 0.70),0.55,0.56,0.58 (0.51 to 0.65),0.05 (−0.02 to 0.13),0.08 (0.01 to 0.16)
+HUOL: Osteoporosis vs rest,0.71 (0.66 to 0.75),0.72,0.61,0.72 (0.67 to 0.76),−0.01 (−0.02 to 0.01),−0.01 (−0.02 to 0.00)
+HUOL: Low BMD vs normal,0.75 (0.70 to 0.80),0.75,0.67,0.77 (0.72 to 0.82),−0.02 (−0.05 to 0.01),0.01 (−0.02 to 0.03)
+"Note: Unweighted LR fitted to the original data; age alone and OSTA are raw scores without refitting. Low BMD, osteopenia or osteoporosis."

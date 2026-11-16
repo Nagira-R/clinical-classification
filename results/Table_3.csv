@@ -1,0 +1,29 @@
+Table 3. Three-class and ordinal discrimination of the five-variable LR and the baselines.
+Metric,Five-variable LR,Age + weight,Age alone,OSTA score
+"PLDC, aged 50 or more",,,,
+Macro-AUC (95% CI),0.63 (0.58 to 0.68),0.60 (0.55 to 0.64),0.57 (0.53 to 0.62),0.61 (0.56 to 0.65)
+ORC (95% CI),0.68 (0.62 to 0.73),0.63 (0.57 to 0.68),0.59 (0.53 to 0.65),0.63 (0.57 to 0.69)
+"ORC, LR − baseline (95% CI)",–,0.05 (0.01 to 0.10),0.09 (0.03 to 0.15),0.05 (0.01 to 0.09)
+Weighted kappa,0.31,0.19,0.10,0.17
+Accuracy (majority 0.42),0.45,0.37,0.39,0.38
+Macro-F1,0.46,0.37,0.38,0.37
+"Recall, normal",0.44,0.25,0.23,0.26
+"Recall, osteopenia",0.35,0.30,0.44,0.30
+"Recall, osteoporosis",0.64,0.64,0.54,0.66
+"Precision, normal",0.47,0.34,0.32,0.35
+"Precision, osteopenia",0.47,0.38,0.46,0.41
+"Precision, osteoporosis",0.43,0.38,0.36,0.37
+"HUOL, aged 50 or more",,,,
+Macro-AUC (95% CI),0.69 (0.66 to 0.72),0.69 (0.66 to 0.73),0.60 (0.57 to 0.64),0.69 (0.66 to 0.72)
+ORC (95% CI),0.74 (0.70 to 0.77),0.74 (0.70 to 0.77),0.64 (0.60 to 0.68),0.74 (0.70 to 0.78)
+"ORC, LR − baseline (95% CI)",–,0.00 (−0.01 to 0.01),0.09 (0.06 to 0.13),0.00 (−0.02 to 0.00)
+Weighted kappa,0.38,0.37,0.21,0.39
+Accuracy (majority 0.48),0.49,0.48,0.38,0.49
+Macro-F1,0.49,0.47,0.37,0.49
+"Recall, normal",0.62,0.64,0.63,0.63
+"Recall, osteopenia",0.36,0.30,0.17,0.34
+"Recall, osteoporosis",0.61,0.64,0.54,0.63
+"Precision, normal",0.36,0.34,0.26,0.36
+"Precision, osteopenia",0.58,0.59,0.54,0.58
+"Precision, osteoporosis",0.53,0.52,0.44,0.52
+"Note: Each baseline (age + weight, age alone, OSTA score) was the only input of a multinomial LR with the same SMOTE-NC pipeline and folds. Mean of three repeats of five-fold cross-validation; 95% CIs from 1,000 bootstrap resamples. ORC, ordinal c-index; weighted kappa, quadratic."

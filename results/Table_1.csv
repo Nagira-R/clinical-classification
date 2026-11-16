@@ -1,0 +1,12 @@
+Table 1. Recent studies of osteoporosis prediction from clinical data.
+Study,Setting,n,Inputs,Classes,Validation,Best AUC
+Agarwal2022,"India, postmenopausal women","5,356",OSTA,2,Tool validation,0.69–0.73
+BuiMH2022,"Vietnam, postmenopausal women",797,"OSTA, OSTC",2,Tool validation,0.71–0.86
+Wu2023,"Korea, community cohort","8,421","15 clinical, lifestyle, genetic",2,Internal,0.89
+Suh2023,"USA and Korea, surveys","16,954",89–162 survey variables,3,5-fold CV,0.83–0.92 (micro)
+Yang2023,"Hong Kong, clinics",800,7 clinical,2,Internal,0.86
+Qiu2024,"USA, community","8,134",16 clinical,2,Repeated split,0.85 (OST 0.82)
+Tu2024,"Germany, primary care","10,000","Age, sex, 9 diseases",2,Internal split,0.76
+Wang2025,"Tibet, women",645,"7, with lab tests",2,Internal split,0.85
+Wei2025,"China, type 2 diabetes","1,560","10, with lab tests",2,Internal split,0.81
+"Note: AUCs are two-class (osteoporosis against the rest) unless marked micro (micro-averaged three-class), as reported by each study. OST, Osteoporosis Self-assessment Tool; OSTC, Osteoporosis Screening Tool for Chinese."

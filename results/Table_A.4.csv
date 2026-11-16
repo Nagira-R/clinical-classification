@@ -1,0 +1,7 @@
+"Table A.4. Minimum sample size for the two-class osteoporosis model (Riley et al. criteria, five parameters)."
+Cohort,n (events),R²CS,n for shrinkage ≥ 0.9,n for optimism ≤ 0.05,n for intercept ± 0.05,Required n (events),Events per parameter,Expected shrinkage
+"PLDC, aged 50 or more",250 (61),0.121,346,138,284,346 (85),12.2,0.85
+"HUOL, aged 50 or more",585 (202),0.124,339,127,348,348 (120),40.4,0.94
+"PLDC, all ages",388 (68),0.146,283,151,223,283 (50),13.6,0.92
+"HUOL, all ages",669 (204),0.159,257,128,326,326 (100),40.8,0.96
+"Note: R²CS, Cox–Snell R² of the fitted unweighted LR."

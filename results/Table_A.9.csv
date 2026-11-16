@@ -1,0 +1,10 @@
+"Table A.9. Final two-class LR models fitted to each cohort, all patients aged 50 or more (coefficients on the original scale)."
+Term,PLDC: osteoporosis vs rest,PLDC: low BMD vs normal,HUOL: osteoporosis vs rest,HUOL: low BMD vs normal
+Intercept,6.9050,7.6958,4.7667,−0.4037
+Age (per year),0.0547,0.0249,0.0324,0.0734
+Male sex,−1.4352,−0.8645,0.0492,−1.1054
+Height (per cm),−0.0597,−0.0549,−0.0313,−0.0024
+Weight (per kg),−0.0096,0.0122,−0.0356,−0.0361
+BMI (per kg/m²),−0.0550,−0.0263,−0.0153,0.0124
+"Imputation median, height / weight",155.0 / 65.5,155.0 / 65.5,153.0 / 66.0,153.0 / 66.0
+"Note: Predicted risk = 1/(1 + exp(−LP)), where LP is the intercept plus the sum of each coefficient times the predictor value (male sex = 1, female = 0). L2-penalised LR without class balancing, with the fixed penalty C = 1 used for every two-class analysis in this work, so that calibration, referral, decision curves and SHAP describe one model; the coefficients equal the standardised coefficients divided by the training SD. Missing height or weight is replaced by the median shown and BMI recomputed. Because height, weight and BMI are collinear, single coefficients should not be interpreted. The PLDC model is expected to be overfitted: before use, multiply its coefficients by 0.85 (Table 5) and re-estimate the intercept in local data; both models need local recalibration."

@@ -1,0 +1,15 @@
+"Table A.1. Three-class results of five algorithms (SMOTE-NC, nested cross-validation)."
+Algorithm,Macro-AUC,Accuracy,Macro-F1,"Recall, osteopenia","Recall, osteoporosis","AUC, osteoporosis vs rest"
+"PLDC, aged 50 or more",,,,,,
+Logistic regression,0.63,0.45,0.46,0.35,0.64,0.72
+SVM (RBF),0.60,0.42,0.40,0.13,0.60,0.69
+Random forest,0.59,0.40,0.40,0.31,0.55,0.67
+Gradient boosting,0.56,0.38,0.39,0.34,0.51,0.64
+k-nearest neighbours,0.57,0.39,0.39,0.29,0.50,0.64
+"HUOL, aged 50 or more",,,,,,
+Logistic regression,0.69,0.49,0.49,0.36,0.61,0.71
+SVM (RBF),0.68,0.50,0.50,0.42,0.55,0.70
+Random forest,0.67,0.50,0.50,0.45,0.54,0.70
+Gradient boosting,0.66,0.47,0.47,0.42,0.51,0.69
+k-nearest neighbours,0.65,0.47,0.46,0.39,0.49,0.66
+Note: Mean of three repeats. Grids in Table A.6; LR used the same grid as the main analysis (C = 0.01 to 100).

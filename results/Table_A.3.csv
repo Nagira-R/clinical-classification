@@ -1,0 +1,13 @@
+Table A.3. Referral operating points for osteoporosis.
+Rule,Referred per 100,Sensitivity,Specificity,PPV,NPV,Missed per 100
+"PLDC, aged 50 or more",,,,,,
+Five-variable LR,77,89%,27%,28%,88%,2.7
+Age alone,81,90%,23%,27%,88%,2.4
+OSTA ≤ −1,24,43%,83%,44%,82%,14.0
+"HUOL, aged 50 or more",,,,,,
+Five-variable LR,78,89%,27%,39%,83%,3.6
+Age alone,84,89%,19%,37%,76%,3.9
+OSTA ≤ −1,37,59%,75%,55%,78%,14.2
+"PLDC → HUOL, transferred threshold",82,93%,23%,39%,85%,2.6
+"HUOL → PLDC, transferred threshold",74,87%,30%,29%,88%,3.2
+Note: LR and age alone: threshold for 90% sensitivity set inside each training part. OSTA: published cut-off of −1 on the truncated score.

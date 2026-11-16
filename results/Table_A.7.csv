@@ -1,0 +1,9 @@
+"Table A.7. Exploratory ultrasound cohort (UPH, India, all ages)."
+Measure,Value
+Patients (normal / osteopenia / osteoporosis),237 (37 / 154 / 46)
+Three-class macro-AUC: LR / age alone / OSTA score,0.87 / 0.87 / 0.76
+Osteoporosis AUC: LR / age alone / OSTA,0.87 / 0.89 / 0.81
+"Age-matched osteoporosis AUC (95% CI), median n","0.48 (0.34 to 0.61), 70"
+"Age- and sex-matched AUC (95% CI), median n","0.46 (0.31 to 0.60), 64"
+"Mean age, normal / osteopenia / osteoporosis",34.4 / 51.1 / 63.6
+"Note: UPH classes come from a quantitative-ultrasound T-score, not DXA, and the cohort has no normal patient aged 50 or more."

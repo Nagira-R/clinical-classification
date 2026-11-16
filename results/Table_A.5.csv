@@ -1,0 +1,5 @@
+Table A.5. Whole-cohort results (all ages) as a sensitivity analysis.
+Cohort,Three-class macro-AUC,OSTA score macro-AUC,"Recall, osteopenia",Osteoporosis AUC,OSTA AUC,LR − OSTA,Intercept / slope,Referred per 100 (sensitivity)
+"PLDC, all ages (n = 388)",0.70 (0.66 to 0.74),0.66,0.31,0.76 (0.69 to 0.82),0.75,0.01 (−0.03 to 0.04),0.01 / 0.82,69 (88%)
+"HUOL, all ages (n = 669)",0.71 (0.68 to 0.74),0.72,0.38,0.74 (0.69 to 0.78),0.75,−0.02 (−0.02 to −0.01),0.00 / 0.88,72 (90%)
+Note: Same methods as the primary analysis.

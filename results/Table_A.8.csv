@@ -1,0 +1,30 @@
+Table A.8. TRIPOD+AI checklist: where each item is reported.
+TRIPOD+AI item,Location
+1 Title,Title page
+2 Abstract,Abstract
+3 Background,Section 1
+4 Objectives,Section 1 (RQ1–RQ4)
+5 Data sources,Section 3.2
+6 Participants,Section 3.2; Fig. 1
+7 Data preparation,Section 3.3; Section A.1
+8 Outcome,Section 3.2
+9 Predictors,Section 3.3
+10 Sample size,Section 3.8; Table A.4; Section A.1
+11 Missing data,Section 3.3
+12 Analytical methods,"Sections 3.4–3.7, 3.10; Table A.6"
+13 Class imbalance,Section 3.4; Table A.2
+14 Fairness,Section 3.3; Table 6
+15 Model output,"Sections 3.4, 3.6"
+16 Training versus evaluation,Section 3.5
+17 Ethical approval,Section 3.1
+18 Open science,"Declarations (funding, competing interests, data and code availability); no protocol or registration"
+19 Patient and public involvement,None
+20 Participants,Section 4.1; Table 2; Fig. 1
+21 Model development,"Sections 4.2–4.4; Tables A.1, A.6"
+22 Model specification,Table A.9
+23 Model performance,Tables 3–6; Figs. 2–3
+24 Model updating,Section 4.4 (shrinkage); Table 5
+25 Interpretation,Section 4.6
+26 Limitations,Section 4.7
+27 Usability of the model in context,"Sections 4.6, 5"
+Note: Item numbers follow Collins et al. (2024); sub-items are reported at the same location as their main item.

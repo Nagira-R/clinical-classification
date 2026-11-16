@@ -1,0 +1,10 @@
+"Table 6. Sensitivity analyses: subgroups, predictor set, whole cohorts and age matching."
+Analysis,PLDC n,PLDC macro-AUC,PLDC osteoporosis AUC (OSTA),HUOL n,HUOL macro-AUC,HUOL osteoporosis AUC (OSTA)
+Primary: aged 50 or more,250,0.63,0.72 (0.69),585,0.69,0.71 (0.72)
+Women aged 50 or more,232,0.62,0.70 (0.70),510,0.69,0.70 (0.71)
+"Without BMI, aged 50 or more",250,0.63,0.72,585,0.69,0.71
+"Whole cohort, all ages",388,0.70,0.76 (0.75),669,0.71,0.74 (0.75)
+"Age-matched, aged 50 or more",122,–,0.68 (0.58 to 0.78),388,–,0.66 (0.60 to 0.72)
+"Age- and sex-matched, aged 50 or more",114,–,0.61 (0.50 to 0.72),382,–,0.64 (0.58 to 0.70)
+"Age-matched, whole cohort",136,–,0.64 (0.55 to 0.74),392,–,0.63 (0.57 to 0.69)
+Note: Matched AUCs: median of 500 matched draws within 5-year age bands; n is the median matched sample. The CI combines sampling and matching variation.
