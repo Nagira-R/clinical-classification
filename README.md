@@ -1,6 +1,6 @@
 # Clinical-only osteoporosis classification in three cohorts
 
-Analysis code for the article *Machine learning of three-class osteoporosis classification in adults using clinical variables* (Nagira Rajahussain, Sarathambekai Subramaniam, Umamaheswari Kandaswamy, Arun Prasad Ramaswamy; submitted to Archives of Gerontology and Geriatrics).
+Analysis code for the article *Machine learning of three-class osteoporosis classification using clinical variables* (Nagira Rajahussain, Sarathambekai Subramaniam, Umamaheswari Kandaswamy, Arun Prasad Ramaswamy; submitted to Archives of Gerontology and Geriatrics).
 
 The study asks how well five routinely recorded variables (age, sex, height, weight and body mass index)
 classify bone status into the three WHO classes (normal, osteopenia, osteoporosis), whether machine learning
